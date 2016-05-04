@@ -255,6 +255,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/vendor/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsvt.so:huawei \
     vendor/huawei/angler/vendor/lib64/lib-imsxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsxml.so:huawei \
     vendor/huawei/angler/vendor/lib64/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_core.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libkmcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkmcrypto.so:huawei \
     vendor/huawei/angler/vendor/lib64/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblbs_core.so:huawei \
     vendor/huawei/angler/vendor/lib64/liblistensoundmodel2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblistensoundmodel2.so:huawei \
     vendor/huawei/angler/vendor/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-glnext.so:huawei \
@@ -314,7 +315,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/vendor/lib64/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwms.so:huawei \
     vendor/huawei/angler/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so:huawei \
     vendor/huawei/angler/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libkmcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkmcrypto.so:huawei \
     vendor/huawei/angler/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so:huawei \
     vendor/huawei/angler/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so:huawei \
     vendor/huawei/angler/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so:huawei \
@@ -419,6 +419,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so:huawei \
     vendor/huawei/angler/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so:huawei \
     vendor/huawei/angler/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so:huawei \
+    vendor/huawei/angler/vendor/lib/libkmcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkmcrypto.so:huawei \
     vendor/huawei/angler/vendor/lib/liblistensoundmodel2.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblistensoundmodel2.so:huawei \
     vendor/huawei/angler/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so:huawei \
     vendor/huawei/angler/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so:huawei \
@@ -559,7 +560,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so:huawei \
     vendor/huawei/angler/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so:huawei \
     vendor/huawei/angler/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so:huawei \
-    vendor/huawei/angler/vendor/lib/libkmcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkmcrypto.so:huawei \
     vendor/huawei/angler/vendor/media/LMspeed_508.emd:$(TARGET_COPY_OUT_VENDOR)/media/LMspeed_508.emd:huawei \
     vendor/huawei/angler/vendor/media/PFFprec_600.emd:$(TARGET_COPY_OUT_VENDOR)/media/PFFprec_600.emd:huawei \
     vendor/huawei/angler/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/landmark_group_meta_data.bin:$(TARGET_COPY_OUT_VENDOR)/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/landmark_group_meta_data.bin:huawei \
